@@ -58,7 +58,7 @@ Min Z = E{j E J} c\_j . y\_j
 
 
 
-\## 📊 Resultados Principales (Escenario Base)
+## 📊 Resultados Principales (Escenario Base)
 
 
 
@@ -72,11 +72,11 @@ Min Z = E{j E J} c\_j . y\_j
 
 \* \*\*Ahorro operativo:\*\* \*\*36.4%\*\* (\*\*$396.00 USD/mes\*\* ahorrados frente al escenario base)
 
-\* \*\*Servidores activos (`y\_j = 1`):\*\*
+\* \*\*Servidores activos (`y_j = 1`):\*\*
 
 &#x20; \* \*\*S1 (`AWS c6i.2xlarge`, US-East):\*\* `$0.34/h` — aloja \*\*M1\*\*, \*\*M2\*\* y \*\*M4\*\*; uso de `16/16 GB` RAM (`100.0%`, `0 GB` de holgura) y `8/8 vCPU` (`100.0%`, `0 vCPU` de holgura)
 
 &#x20; \* \*\*S3 (`GCP n2-standard-16`, US-Central):\*\* `$0.62/h` — aloja \*\*M3\*\* y \*\*M5\*\*; uso de `28/64 GB` RAM (`43.8%`, `36 GB` de holgura) y `12/16 vCPU` (`75.0%`, `4 vCPU` de holgura)
 
-\* \*\*Servidores apagados (`y\_j = 0`):\*\* \*\*S2\*\* (`Azure Standard\_D8s\_v5`) y \*\*S4\*\* (`AWS t3.xlarge`) permanecen inactivas (`$0.00/h`), cumpliéndose el \*\*100%\*\* de las restricciones de capacidad y latencia (SLA).
+\* \*\*Servidores apagados (`y_j = 0`):\*\* \*\*S2\*\* (`Azure Standard_D8s_v5`) y \*\*S4\*\* (`AWS t3.xlarge`) permanecen inactivas (`$0.00/h`), cumpliéndose el \*\*100%\*\* de las restricciones de capacidad y latencia (SLA).
 
